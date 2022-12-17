@@ -1,0 +1,16 @@
+Acces modifiers (Erisim bekirtecleri)
+public , private , protected , default , ( bir sey yazilmayan )
+Erisim Alanlari
+1-Class icinde erisim
+2-Paketin icinden erisim
+3-Projenin icinden erisim
+
+public: Projenin her tarafindan yani , diger tum paketlerden erisilebilir
+        Class , Metod (constructror) , field
+default: (friendly) bu bir belirtec yazilmazsa bu sadece bulundugu pakettekiler erisebilir
+          Class , metod , field
+
+private:sadece class in icindekiler erisilebilir
+        metod , field.
+protected: default ile ayni calsiir , bir secenekte diger klasorden de erisilebilir.
+           bunu 2,3 konu sonra anlatilacak
